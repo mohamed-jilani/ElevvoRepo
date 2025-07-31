@@ -18,7 +18,7 @@ body {
 }
 
 .sidebar.closed {
-  width: 80px; /* Légèrement augmenté pour mieux contenir le logo */
+  width: 80px; 
 }
 
 .logo-container {
@@ -28,7 +28,7 @@ body {
   border-bottom: 1px solid #34495e;
   gap: 10px;
   white-space: nowrap;
-  height: 100px; /* Hauteur fixe pour le header */
+  height: 100px; 
 }
 
 .logo {
@@ -72,9 +72,9 @@ body {
 }
 
 .links li i {
-  min-width: 30px; /* Plus large pour mieux centrer */
+  min-width: 30px; 
   text-align: center;
-  font-size: 20px; /* Taille augmentée */
+  font-size: 20px; 
 }
 
 .link-text {
@@ -92,7 +92,6 @@ body {
   background-color: #34495e;
 }
 
-/* Tooltips améliorés */
 .links li::after {
   content: attr(data-tooltip);
   position: absolute;
@@ -107,7 +106,7 @@ body {
   white-space: nowrap;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.2s 0.1s; /* Délai pour éviter les apparitions intempestives */
+  transition: opacity 0.2s 0.1s; 
   z-index: 1000;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 }
@@ -116,15 +115,15 @@ body {
   opacity: 1;
 }
 
-/* Bouton toggle parfaitement synchronisé */
+
 .toggle-btn {
   position: fixed;
   top: 30px;
-  left: calc(250px + 15px); /* Position basée sur la largeur de la sidebar */
-  background-color: #3498db;
+  left: calc(250px + 15px); 
+  background-color: #ffb404;
   border: none;
   padding: 10px 12px;
-  border-radius: 50%; /* Forme circulaire */
+  border-radius: 50%; 
   cursor: pointer;
   color: white;
   z-index: 1000;
@@ -137,7 +136,7 @@ body {
 }
 
 .toggle-btn:hover {
-  background-color: #2980b9;
+  background-color: #de9d04;
   transform: scale(1.1);
 }
 
