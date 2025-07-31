@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collapsible Sidebar</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="sidebar" id="sidebar">
+    <div class="logo-container">
+      <img src="assets/logo.png" alt="Logo" class="logo">
+      <span class="logo-text">Elevvo Task 1</span>
+    </div>
+    <ul class="links">
+      <li data-tooltip="Home">
+        <i class="fas fa-home"></i> 
+        <span class="link-text">Home</span>
+      </li>
+      <li data-tooltip="Profile">
+        <i class="fas fa-user"></i> 
+        <span class="link-text">Profile</span>
+      </li>
+      <li data-tooltip="Settings">
+        <i class="fas fa-cog"></i> 
+        <span class="link-text">Settings</span>
+      </li>
+      <li data-tooltip="About">
+        <i class="fas fa-info-circle"></i> 
+        <span class="link-text">About</span>
+      </li>
+    </ul>
+  </div>
+
+  <button class="toggle-btn" id="toggleBtn" aria-label="Toggle sidebar">
+    <i class="fas fa-bars"></i>
+  </button>
+</body>
+</html>
